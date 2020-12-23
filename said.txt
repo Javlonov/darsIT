@@ -1,0 +1,88 @@
+							Funksiya
+	Javascriptda birir bir amalni bajaruvchi va o'z nomiga ega 
+
+
+
+
+
+
+
+
+
+
+
+						Hodisalar
+	JavaScriptda web sahifada sodir bulayotgan hodisalarni ushlash imkoniyati bor.
+	web sahifada quyidagicha hodisalar bulishi mumkin: 
+	1- Sichqoncha chap tugmasining 1 marta bosilishi-- onclick;
+	2- Sichqoncha chap tugmasining 2 marta bosilishi-- ondblclick;
+	3- Qiymat uzgarishi -- onchange;
+	4- Sichqoncha kursorining krib keliwi-- onmouseover;
+	5- Sichqoncha kursorining chiqib ketishi -- onmouseout;
+	6- Tugma bosilganda-- onkeydown;
+	7- Tugma quyib yuborilganda -- onkeyup;
+	8- Birinchi yuklanganda -- onload;
+
+	Html elemetlarga hodisani biriktiriw un xudi atributlar kabi foydalanilad,
+	uning qiymati bror javascript amali yoki funksiya bulad.
+
+	MISOL: <element hodisa = 'funksiya'> <h1 onclick='uzgar()'>...</h1>
+
+				Bootstrap
+bootstrap bu - Sayt jarayonida xama un umumiy bulgan css va Javascript kodalari yigindisidr!
+Bootstrapt bu Html css "frame work" dir.
+Frame work bu qolib.
+Bootstraptni 2xil usul bn urnatiw mumkin: maxsus saytlar adresi orqali ulardi SDM deyilad. Afzalligi 1 marta yuklanadi va bowqa xar qanday saytdan saytlardan kelganda uwandan fodalanilad .
+Yomon  tomoni agar biz afline rejimda iwlasak bu usulimiz samara bermaydi. 
+Bootstraptni saytga urnatiwni 2chi yuli bu yuklab oliwdir.
+
+					DOM
+Document abject mode(DOM) 
+HTMl DOM deb html xujjatda html elementlarning strukturaviy joylawuviga aytilad.
+Html xujjatda eng brinchi elementi bu "ducument"dir, undan keyin uning ichida idiz html elementi joylashgan.
+Html elementi ichida Head va  Body va boshqa nasalar joylashgan
+ 
+
+
+			JavaScript HTML elementlarni topish
+
+JavaScript HTML elementlarni 5 xil usul bn topish mumkin .
+1. ID bilan. Misol: document.getElementById("id"); Bu funksiya biz 1ta HTML elementini olib berad!
+2. Tagname bilan . Misol: document.getElementsByTagName(); bu funksiya bizga documentda joylashgan elementlar masssivini berad.
+3. class bilan. Misol: document.getElementsByClassName('name');
+bu massiv qaytaradi
+4 CSS selectorlar yordamida. Misol: document.querySelectorAll('h1')
+5 document uzgaruvchilari bn .
+ ular quyidagilar :
+document.anchors
+document.body
+document.documentElement
+document.embeds
+document.forms
+document.head
+document.images
+document.links
+document.scripts
+document.title
+
+
+
+
+		HTML elementlarga uzgarishlar kiritish
+1 html elementning ichidagi kontentini uzgartirish un element nome.innnerHtml xsusiyatiga uzgartirish kiritish bn bajarilad 
+
+2 html elementining atributini uzgartirish un elementNomi.atributNomi= uzgarish qiymat atribut nomi bror qiymatga tenglashtrilad  
+3 html elementning stiliga uzgartirishlar kiritish un elemetNomi.style.stil xususiyatiga bror qiymatga tenglashtrilad
+
+
+		HTML elementlarini yaratish, qushish, uchirish.
+1 element yaratish. HTML element yaratish un document.createlement('div'); bu funksiya teg nomlari berilad 
+2 html elemntni uchurish . HTML elementni uchirish un document.removeChild(teg)
+3 html element ichiga bror narsa qushish un element.appendChild(element) funksiyasidan foydalanilad
+4 bror HTML element boshqasi bn almawtirish un . document.replaceChild(yengi element, eski element) 
+
+
+		Elementlarga hodisa briktirish 
+HTml elementga hodisa briktirish  un 2xil usulldan foydalanilad 
+elementNomi.hodisa bror funksiyaga tenglashtrilad
+elemen.onclick=funkcion()

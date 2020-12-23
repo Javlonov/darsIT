@@ -1,0 +1,13 @@
+						Ekran kottaligini belgilash 
+	1)xs-extra small ekran eni 576pxdan kichik bulganda 
+	2)sm-small ekran eni  576pxdan 768gacha 
+	3)md-medium urtacha 768pxdan kotta
+	4)lg-large kotta 992pxdan kotta
+	5)xl- extra large juga kotta 1200pxdan kotta 
+							Ajax
+	JavaScriptda serverda joylashgan bror malumotni olish un yoki serverga bror malumot yuboriw un AJAX texnalogiyasidan foydalanilad. Ajax dagi barcha surovlarimiz asinxron(paralel) raviwda iwlaydi.Ainnxron deyilganda asosiy dastur oqimiga (jarayoniga) xalaqit bermasdan paralel iwlashga aytilad .
+Ajaxdan foydalanish un <XMLHttpRequest()> dan foydalanilad   
+						JSON
+	xozirgi kunda tarmoq orqali malumotlar almawnuvi JSON orqali bulmoqda.
+ JSON bu JavaScript obyektining bazibr turlari olib tashlangan xolda satr kurinishida yoziliwidir.
+Javascriptdan JSONga utish un Json.stringify() iwlatilad
